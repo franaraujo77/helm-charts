@@ -10,7 +10,35 @@ entries:
           image: ghcr.io/cloudflare/cloudflared:version-2023.7.1
     apiVersion: v2
     appVersion: 2023.7.1
-    created: "2023-07-21T19:10:45.352206-03:00"
+    created: "2023-07-21T19:21:47.861258-03:00"
+    description: Run cloudflare zero trust daemon.
+    digest: 151e37e8432a79b8e278a82455a6a3b376143ff6f1a5d49d1e783821ce480f60
+    home: https://github.com/franaraujo77/helm-charts/tree/main/charts/cloudflared
+    icon: https://github.com/franaraujo77/helm-charts/raw/main/images/cloudflared.png
+    keywords:
+    - cloudflare
+    - tunnel
+    - zero trust
+    maintainers:
+    - email: francis.araujo@gmail.com
+      name: franaraujo77
+    name: cloudflared
+    sources:
+    - https://hub.docker.com/r/cloudflare/cloudflared
+    type: application
+    urls:
+    - https://franaraujo77.github.io/helm-charts/cloudflared-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Initial version
+      artifacthub.io/images: |
+        - name: cloudflared
+          image: ghcr.io/cloudflare/cloudflared:version-2023.7.1
+    apiVersion: v2
+    appVersion: 2023.7.1
+    created: "2023-07-21T19:21:47.8607-03:00"
     description: Run cloudflare zero trust daemon.
     digest: f48b7c5d935e6b49a1f1b8f4f0a663f7f381c397fcbd8b9db6922cdbf630f386
     home: https://github.com/franaraujo77/helm-charts/tree/main/charts/cloudflared
@@ -38,7 +66,7 @@ entries:
           image: ghcr.io/cloudflare/cloudflared:version-2023.7.1
     apiVersion: v2
     appVersion: 2023.7.1
-    created: "2023-07-21T19:10:45.351813-03:00"
+    created: "2023-07-21T19:21:47.860081-03:00"
     description: Run cloudflare zero trust daemon.
     digest: 323139601e1b43bbcced66c05bbf42d2dfcdab4945c370ef2ebf84008b947503
     home: https://github.com/franaraujo77/helm-charts/tree/main/charts/cloudflared
@@ -57,4 +85,4 @@ entries:
     urls:
     - https://franaraujo77.github.io/helm-charts/cloudflared-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-21T19:10:45.350851-03:00"
+generated: "2023-07-21T19:21:47.858516-03:00"

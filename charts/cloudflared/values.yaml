@@ -15,7 +15,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 args:
-  token: ""
+  tokenSecret: ""
+  tokenKey: ""
 
 serviceAccount:
   # Specifies whether a service account should be created

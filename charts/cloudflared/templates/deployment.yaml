@@ -40,7 +40,10 @@ spec:
           - run
           env:
           - name: TUNNEL_TOKEN
-            value: {{ .Values.args.token }}
+            valueFrom:
+              secretKeyRef:
+                name: {{ .Values.args.tokenSecret }}
+                key: {{ .Values.args.tokenKey }}
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
