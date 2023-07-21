@@ -36,10 +36,11 @@ spec:
           # The address 0.0.0.0:2000 allows any pod in the namespace.
           - --metrics
           - 0.0.0.0:2000
+          - no-autoupdate
           - run
-          args:
-          - --token
-          - {{ .Values.args.token }}
+          env:
+          - name: TUNNEL_TOKEN
+            value: {{ .Values.args.token }}
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
