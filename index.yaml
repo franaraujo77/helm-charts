@@ -10,9 +10,9 @@ entries:
           image: ghcr.io/cloudflare/cloudflared:version-2023.7.1
     apiVersion: v2
     appVersion: 2023.7.1
-    created: "2023-07-21T19:21:47.861258-03:00"
+    created: "2023-07-26T20:46:43.551462-03:00"
     description: Run cloudflare zero trust daemon.
-    digest: 151e37e8432a79b8e278a82455a6a3b376143ff6f1a5d49d1e783821ce480f60
+    digest: fe8872726f096d0fe85151422e974ed569dd19229036cf1f1c128f886f652788
     home: https://github.com/franaraujo77/helm-charts/tree/main/charts/cloudflared
     icon: https://github.com/franaraujo77/helm-charts/raw/main/images/cloudflared.png
     keywords:
@@ -27,6 +27,90 @@ entries:
     - https://hub.docker.com/r/cloudflare/cloudflared
     type: application
     urls:
-    - https://github.com/franaraujo77/helm-charts/releases/download/cloudflared-0.1.2/cloudflared-0.1.2.tgz
+    - cloudflared-0.1.3.tgz
     version: 0.1.3
-generated: "2023-07-21T19:21:47.858516-03:00"
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Initial version
+      artifacthub.io/images: |
+        - name: cloudflared
+          image: ghcr.io/cloudflare/cloudflared:version-2023.7.1
+    apiVersion: v2
+    appVersion: 2023.7.1
+    created: "2023-07-24T23:37:39.405363382Z"
+    description: Run cloudflare zero trust daemon.
+    digest: a494c325b31597d794d32329749568a476e8b3a525685206765afcf26063d3b3
+    home: https://github.com/franaraujo77/helm-charts/tree/main/charts/cloudflared
+    icon: https://github.com/franaraujo77/helm-charts/raw/main/images/cloudflared.png
+    keywords:
+    - cloudflare
+    - tunnel
+    - zero trust
+    maintainers:
+    - email: francis.araujo@gmail.com
+      name: franaraujo77
+    name: cloudflared
+    sources:
+    - https://hub.docker.com/r/cloudflare/cloudflared
+    type: application
+    urls:
+    - https://franaraujo77.github.io/helm-charts/cloudflared-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Initial version
+      artifacthub.io/images: |
+        - name: cloudflared
+          image: ghcr.io/cloudflare/cloudflared:version-2023.7.1
+    apiVersion: v2
+    appVersion: 2023.7.1
+    created: "2023-07-21T19:21:47.8607-03:00"
+    description: Run cloudflare zero trust daemon.
+    digest: f48b7c5d935e6b49a1f1b8f4f0a663f7f381c397fcbd8b9db6922cdbf630f386
+    home: https://github.com/franaraujo77/helm-charts/tree/main/charts/cloudflared
+    icon: https://github.com/franaraujo77/helm-charts/raw/main/images/cloudflared.png
+    keywords:
+    - cloudflare
+    - tunnel
+    - zero trust
+    maintainers:
+    - email: francis.araujo@gmail.com
+      name: franaraujo77
+    name: cloudflared
+    sources:
+    - https://hub.docker.com/r/cloudflare/cloudflared
+    type: application
+    urls:
+    - https://franaraujo77.github.io/helm-charts/cloudflared-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Initial version
+      artifacthub.io/images: |
+        - name: cloudflared
+          image: ghcr.io/cloudflare/cloudflared:version-2023.7.1
+    apiVersion: v2
+    appVersion: 2023.7.1
+    created: "2023-07-21T19:21:47.860081-03:00"
+    description: Run cloudflare zero trust daemon.
+    digest: 323139601e1b43bbcced66c05bbf42d2dfcdab4945c370ef2ebf84008b947503
+    home: https://github.com/franaraujo77/helm-charts/tree/main/charts/cloudflared
+    icon: https://github.com/franaraujo77/helm-charts/raw/main/images/cloudflared.png
+    keywords:
+    - cloudflare
+    - tunnel
+    - zero trust
+    maintainers:
+    - email: francis.araujo@gmail.com
+      name: franaraujo77
+    name: cloudflared
+    sources:
+    - https://hub.docker.com/r/cloudflare/cloudflared
+    type: application
+    urls:
+    - https://franaraujo77.github.io/helm-charts/cloudflared-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-07-26T20:46:43.551554-03:00"
