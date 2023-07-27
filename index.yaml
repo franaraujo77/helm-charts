@@ -10,7 +10,7 @@ entries:
           image: ghcr.io/cloudflare/cloudflared:version-2023.7.1
     apiVersion: v2
     appVersion: 2023.7.1
-    created: "2023-07-26T20:47:27.880071-03:00"
+    created: "2023-07-26T21:02:27.283334-03:00"
     description: Run cloudflare zero trust daemon.
     digest: fe8872726f096d0fe85151422e974ed569dd19229036cf1f1c128f886f652788
     home: https://github.com/franaraujo77/helm-charts/tree/main/charts/cloudflared
@@ -113,4 +113,4 @@ entries:
     urls:
     - https://franaraujo77.github.io/helm-charts/cloudflared-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-26T20:47:27.880109-03:00"
+generated: "2023-07-26T21:02:27.283362-03:00"
